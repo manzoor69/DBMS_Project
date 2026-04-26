@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="Body">
+    <form class="container">
+
+        <h2 class="title">Student Registration</h2>
+
+        <!-- inputs -->
+
+        <div class="form-control">
+            <input type="text" name="name" required placeholder=" ">
+            <label>Full Name</label>
+        </div>
+
+        <div class="form-control">
+            <input type="text" name="roll_no" required placeholder=" ">
+            <label>Roll No</label>
+        </div>
+
+        <div class="form-control">
+            <input type="email" name="email" required placeholder=" ">
+            <label>Email</label>
+        </div>
+
+        <div class="form-control">
+            <input type="date" name="dob" required placeholder=" ">
+            <label>Date of Birth</label>
+        </div>
+
+        <!-- radio buttons -->
+
+        <div class="option-group">
+            <label class="option">
+                <input type="radio" name="type">
+                <span>Full-Time</span>
+            </label>
+
+            <label class="option">
+                <input type="radio" name="type">
+                <span>Part-Time</span>
+            </label>
+        </div>
+
+        <!-- dropdown -->
+
+        <div class="form-control">
+            <select name="program" required>
+                <option value="" disabled selected></option>
+                <option>BS-CS</option>
+                <option>BS-SE</option>
+                <option>BS-IT</option>
+            </select>
+            <label>Program</label>
+        </div>
+
+        <!-- register button -->
+
+        <button type="submit">Register</button>
+
+    </form>
+</body>
+
+</html>
